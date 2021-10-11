@@ -1,0 +1,71 @@
+.empty {
+  height: 35px;
+  width: 40px;
+  background-color: #EE5B2A;
+  border-radius: 30%;
+  
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  border-bottom-style: groove;
+}
+.m {
+  margin-left: -210px;
+  margin-top: 5px;
+  color: rgb(22, 19, 19);
+}
+.moringa{
+  margin-left: 15px;
+  margin-top: 5px;
+  color: #EE5B2A;
+}
+.col {
+  display: flex;
+}
+button {
+background-color: #EE5B2A;
+width: 140px;
+height: 35px;
+border-style: hidden;
+color: white;
+font-weight: bolder;
+border-radius: 10px;
+}
+nav a {
+  color: #EE5B2A;
+  margin-top: 10px;
+  margin-right: 70px;
+}
+nav a:link {
+  text-decoration: none;
+}
+.part1{
+width: 450px;
+margin-top: 50px;
+margin-left: 40px;
+}
+.aa {
+  display: flex;
+  justify-content: space-between;
+}
+.empty2{
+  height: 600px;
+  width: 300px;
+  background-color: #EE5B2A;
+  position:absolute;
+  right: 0px;
+  top: 120px;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.car img {
+position: absolute;
+left: 700px;
+height: 400px;
+}
+.part1 img {
+  width: 100px;
+  height: 50px;
+  margin-top: 200px;
+}
