@@ -73,4 +73,40 @@ top: 180px;
   height: 60px;
   margin-top: 110px;
 }
-
+.part2 {
+  background-color: rgb(241, 236, 236);
+  margin-top: 80px;
+  height: 1000px;
+}
+.heading {
+padding-top: 20px;
+text-align: center;
+}
+.heading h4, .heading p {
+  color: grey;
+}
+.heading p {
+  padding-top: 20px;
+}
+hr {
+  width: 100px;
+  height: 4px;
+  background-color: #EE5B2A;
+  border: none;
+}
+.part2_2 img {
+width: 100px;
+height: 100px;
+background-color: #EE5B2A;
+border-radius: 20%;
+-shadow: white;
+}
+.part2_2 {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 100px;
+}
+.part2_2 p{
+  width: 300px;
+}
