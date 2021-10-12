@@ -76,7 +76,7 @@ top: 180px;
 .part2 {
   background-color: rgb(241, 236, 236);
   margin-top: 80px;
-  height: 1000px;
+  height: fit-content;
 }
 .heading {
 padding-top: 20px;
@@ -98,8 +98,9 @@ hr {
 width: 100px;
 height: 100px;
 background-color: #EE5B2A;
-border-radius: 20%;
--shadow: white;
+border-radius: 15%;
+border-color: white;
+border: 5px solid white;
 }
 .part2_2 {
   display: flex;
@@ -108,5 +109,32 @@ border-radius: 20%;
   margin-top: 100px;
 }
 .part2_2 p{
-  width: 300px;
+  width: 250px;
+}
+#no1 {
+  position: relative;
+  background-color: blue;
+ padding: 3px;
+ border-radius: 50%;
+ width: 15px;
+ border: 5px solid rgb(58, 58, 192);
+ right: 65px;
+}
+#no2 {
+  position: relative;
+  background-color: blue;
+ padding: 3px;
+ border-radius: 50%;
+ width: 15px;
+ border: 5px solid rgb(58, 58, 192);
+ right: 65px;
+}
+#no3 {
+  position: relative;
+  background-color: blue;
+ padding: 3px;
+ border-radius: 50%;
+ width: 35px;
+ border: 5px solid rgb(58, 58, 192);
+ right: 65px;
 }
