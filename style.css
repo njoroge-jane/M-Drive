@@ -178,5 +178,27 @@ ul li::before {
   color: rgb(66, 65, 65);
 }
 .lastpage {
-  background-image: url(file:///home/moringa/Downloads/Rectangle%2016.png);
+  background-image: url('Rectangle\ 16.png');
+  height: 600px;
+  margin-top: 70px;
+}
+.fit {
+  background-color: black;
+  height: 450px;
+  width: 450px;
+  color: white;
+  margin-top: 100px;
+  margin-left: 100px;
+  transform: translate(0%,10%);
+  font-size: 20px;
+  padding-left: 20px;
+  opacity: 0.7;
+  border-radius: 20px;
+}
+#sentence {
+  padding-top: 30px;
+  width: 400px;
+}
+#learn {
+margin-top: 80px;
 }
