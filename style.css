@@ -42,7 +42,7 @@ nav a:link {
   text-decoration: none;
 }
 .part1 {
-width:630px;
+width:600px;
 margin-top: 50px;
 margin-left: 40px;
 font-size: 23px;
@@ -99,13 +99,13 @@ hr {
   border: none;
 }
 .part2_2 img {
-width: 30%;
-height: 30%;
+width: 20%;
+height: 20%;
 background-color: #EE5B2A;
 border-radius: 15%;
 /* border-color: white; */
 border: 5px solid white;
-padding: 25px;
+padding: 15px;
 }
 .part2_2 {
   display: flex;
@@ -119,41 +119,57 @@ padding: 25px;
 }
 #no1 {
   position: relative;
-  background-color: blue;
- padding: 3px;
- border-radius: 50%;
- width: 15px;
- border: 5px solid rgb(58, 58, 192);
- right: 65px;
- color: white;
-}
-#no2 {
-  position: relative;
-  background-color: blue;
- padding: 3px;
+  background-color: rgb(139, 139, 245);
  border-radius: 50%;
  width: 15px;
  height: 15px;
- border: 5px solid rgb(58, 58, 192);
- right: 65px;
+ border: 2px solid rgb(99, 99, 216);
+ right: 57px;
  color: white;
+ padding: 6px;
+ text-align: center;
+ padding-top: 3px;
+ padding-bottom: 3px;
+ top: 6px;
+}
+#no2 {
+  position: relative;
+  background-color: rgb(139, 139, 245);
+ border-radius: 50%;
+ width: 15px;
+ height: 15px;
+ border: 2px solid rgb(99, 99, 216);
+ right: 57px;
+ color: white;
+ padding: 6px;
+ text-align: center;
+ padding-top: 3px;
+ padding-bottom: 3px;
+ top: 6px;
 }
 #no3 {
   position: relative;
-  background-color: blue;
+  background-color: rgb(139, 139, 245);
  padding: 3px;
  border-radius: 50%;
  width: 35px;
- border: 5px solid rgb(58, 58, 192);
- right: 65px;
+ border: 2px solid rgb(99, 99, 216);
+ right: 57px;
  color: white;
+ padding: 6px;
+ text-align: center;
+ padding-top: 3px;
+ padding-bottom: 3px;
+ top: 6px;
 }
 .floatright{
-  width: 600px;
+  width: 100%;
   margin-right: 50px;
+  margin-left: 20px;
 }
 html {
   overflow-x: hidden;
+  /* margin-right: auto; */
 }
 ul {
   list-style: none;
@@ -187,11 +203,12 @@ ul li::before {
   background-image: url('Rectangle\ 16.png');
   height: 600px;
   margin-top: 70px;
+  
 }
 .fit {
   background-color: black;
-  height: 400px;
-  width: 370px;
+  height:65%;
+  width: 30%;
   color: white;
   margin-top: 100px;
   margin-left: 100px;
@@ -203,7 +220,7 @@ ul li::before {
 }
 #sentence {
   padding-top: 30px;
-  width: 400px;
+  width: 100%;
 }
 #learn {
 margin-top: 50px;
@@ -212,11 +229,11 @@ footer {
   text-align: center;
   color: white;
   background-color: black;
-  height: 70px;
-  /* margin-top: -20px; */
+  height: 100px;
+  margin-top: -20px;
 }
 .footer h2 {
-  margin-top: -20px;
+ padding-top: 35px;
 }
 @media screen and (max-width:760px){
   .aa{
@@ -242,14 +259,24 @@ footer {
   .part1 {
     width: 60%;
   }
+  
 }
 @media screen and (max-width:950px){
   .part1 {
     width: 50%;
   }
+  .part1 img {
+    margin-top: 50px;
+  }
   .part3 {
     display: grid;
     grid-template-columns: repeat(1fr 1fr);
+  }
+  #learn {
+    margin-top: 0px;
+  }
+  .fit{
+    width: 40%;
   }
 }
 @media  screen and (max-width: 750px) {
@@ -257,15 +284,50 @@ footer {
     display: grid;
     grid-template-columns: repeat (1fr 1fr);
   }
+  .part1 {
+    width : 100%;
+    margin: 10px 10px 10px 10px;
+  }
+  #learn {
+    margin-top: 0px;
+  }
+  .fit {
+    width: 60%;
+  }
+  #playstore {
+  margin-left: 37px;
+  }
 }
 @media screen and (max-width:500px) {
   #car2 {
     display: none;
   }
-}
-@media screen and (max-width:600px){
-  .fit{
-    margin-left: opx;
+  body {
+    width: auto;
   }
-  
+  body {
+    overflow-x: hidden;
+  }
+  .empty2 {
+    overflow: hidden;
+  }
+  .part1 #playstore, #applestore {
+  margin-left: 70px;
+  }
+  .floatright {
+    width: 80%;
+  }
+  .fit {
+    margin-left: 3px;
+    width: 80%;
+  }
+  #learn {
+    margin-top: 0px;
+  }
+  footer {
+   /* background-color: black;
+   margin-top: 160px;
+   color: blueviolet; */
+   height: 40px;
+  }
 }
